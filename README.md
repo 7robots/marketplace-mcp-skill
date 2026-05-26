@@ -66,7 +66,7 @@ Complete, deployable MCP server template demonstrating all best practices:
 ```bash
 mkdir my-mcp-server && cd my-mcp-server
 uv venv
-uv pip install "fastmcp>=2.0.0,<3" httpx pydantic python-dotenv
+uv pip install "fastmcp>=2.0.0,<3" "starlette>=1.0.1" httpx pydantic python-dotenv
 ```
 
 ### 2. Create server.py

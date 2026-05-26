@@ -62,7 +62,7 @@ if __name__ == "__main__":
 **Install dependencies with uv:**
 ```bash
 uv venv
-uv pip install "fastmcp>=2.0.0,<3" httpx pydantic python-dotenv
+uv pip install "fastmcp>=2.0.0,<3" "starlette>=1.0.1" httpx pydantic python-dotenv
 ```
 
 **Create pyproject.toml:**
@@ -74,6 +74,8 @@ description = "MCP server for [service]"
 requires-python = ">=3.11"
 dependencies = [
     "fastmcp>=2.0.0,<3",
+    # CVE-2026-48710 (BadHost) — fixed in 1.0.1
+    "starlette>=1.0.1",
     "httpx>=0.27.0",
     "pydantic>=2.0.0",
 ]
