@@ -1,3 +1,9 @@
+# ⚠️ ARCHIVED (2026-07-08)
+
+Superseded: this skill targeted FastMCP 2 + the fastmcp.cloud/mcp-marketplace registry, replaced by the plugin-marketplace-manager MCP server and the `mcp-deploy-utils` skill in [7robots/my-skills](https://github.com/7robots/my-skills).
+
+---
+
 # Marketplace MCP Skill
 
 A Claude skill for building and deploying MCP servers to [FastMCP Cloud](https://fastmcp.cloud).
